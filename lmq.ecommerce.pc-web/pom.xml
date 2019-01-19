@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.lmq</groupId>
+    <artifactId>lmq.ecommerce-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>lmq.ecommerce.pc-web</artifactId>
+  
+  <dependencies>
+    <!-- 引入freemarker包 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-freemarker</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-feign</artifactId>
+		</dependency>
+	 <dependency>
+     <groupId>com.lmq</groupId>
+    <artifactId>lmq.ecommerce-api-member</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+     <groupId>com.lmq</groupId>
+    <artifactId>lmq.ecommerce-api-pay</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    
+     <dependency>
+     <groupId>com.lmq</groupId>
+    <artifactId>lmq.ecommerce-common</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    
+    <dependency>
+			<groupId>com.qqsdk4j</groupId>
+			<artifactId>sdk4j</artifactId>
+			<version>1.0</version>
+		</dependency>
+  
+  </dependencies>
+  
+</project>

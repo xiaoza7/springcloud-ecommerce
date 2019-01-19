@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.lmq</groupId>
+    <artifactId>lmq.ecommerce-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>lmq.ecommmerce-api</artifactId>
+  <packaging>pom</packaging>
+    <dependencies>
+    <dependency>
+     <groupId>com.lmq</groupId>
+    <artifactId>lmq.ecommerce-common</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
+
+  <modules>
+  	<module>lmq.ecommerce-api-member</module>
+  	<module>lmq.ecommerce-api-pay</module>
+  	<module>lmq.ecommerce-api-order</module>
+  </modules>
+</project>
